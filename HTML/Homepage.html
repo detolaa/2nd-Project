@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Adedeji Adetola">
+        <title>Second PROJECT</title>
+        <link rel="stylesheet" href="../CSS/page.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite" >
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <h2 class="lobster">Foodieland<span style="color: #FF7426;">.</span></h2>
+        
+    
+        <ul class="nav_list">
+            <li class="list">Home</li>
+            <li class="list">Recipes</li>
+            <li class="list">Blog</li>
+            <li class="list">Contact</li>
+            <li class="list">About us</li>
+        </ul>
+        <div class="img">
+            <img src="../images/facebook.svg" alt="facebook" width="15" height="20">
+            <img src="../images/twitter.svg" alt="facebook" width="15" height="20">
+            <img src="../images/instagram.svg" alt="facebook" width="15" height="20">
+        </div>
+        </nav>
+        
+        
+            <div class="mainhero">
+            <div class="herotext">
+                <div class="recima">
+                    <img src="../images/hotrecipeimg.png" alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                    <p style="flex-shrink: 0; padding: 0; margin: 0;">Hot Recipes</p>
+                </div>
+                <div class="textpara"> 
+                    <h2 class="maintext">Spicy delicious chicken wings</h2>
+                     <p style="color: rgba(0, 0, 0, 0.6); line-height: 28px; font-size: 16px;">Lorem ipsum dolor sit amet, consectetuipisicing elit, 
+                    sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                </div>
+
+               <div class="timfood">
+                    <div class="decima">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6);">30 Minute</p>
+                    </div>
+                    <div class="decima">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6);">Chicken</p>
+                    </div>
+                </div>
+                
+                    <div class="imgtext">
+                        <img src="../images/elipseimage.png" alt="ellipse" width="50" height="50" 
+                        style="margin-right: 16px; transition:transform 0.3s ease;" id="ellipse">
+                        <section style="display: flex; flex-direction: column; gap: 8px; margin-left: 0;">
+                            <h2 style="letter-spacing: -0.32px; font-size: 16px; color: black; font-size: medium;">John Smith</h2>
+                            <p style="letter-spacing: -0.32px; font-size: 14px; font-weight: 500; color: rgba(0, 0, 0, 0.6); flex-shrink: 0; width: 100px;">15 March 2022</p>
+                        </section>
+                        
+                     
+                     <div class="view">
+                        <p style="color: white; flex-shrink: 0; cursor: context-menu;" id="View">View Recipes</p>
+                        <img src="../images/Play3.svg" alt="play" style="width: 20px; 
+                        height: 20px; border-radius: 100px; background-color: white; ">
+                     </div>
+                    </div>
+                
+                 
+  
+            </div>
+            <img src="../images/heroimage.png" alt="heroimage" width=660 height=640>
+            </div>
+            <div class="badge"><img src="../images/badge.png" alt="badge" width="150" height="150"></div>
+
+            <div class="second">
+
+                <div class="let"> <h3 class="sechead">Categories</h3></div>
+               
+                <div class="rit" >
+                    <p class="secpara" onclick="showcategories()" style="cursor: pointer; flex-shrink: 0; ;">View all categories</p>
+                </div>
+
+                <div id="categories"></div>
+                <div id="items"></div>
+             
+            </div>
+            <div class="third">
+                <div class="cat1">
+                    <img src="../images/sec1.png" alt="sec1" width="100" height="100" >
+                    <p  style="font-size: 18px; letter-spacing: -0.32px; font-weight: 700;">Breakfast</p>
+                </div>
+                <div class="cat1" style="background:linear-gradient(rgba(108, 198, 63,0),rgba(108, 198, 63,0.1));">
+                    <img src="../images/sec2.png" alt="sec1" width="100" height="100" >
+                    <p  style="font-size: 18px; letter-spacing: -0.32px; font-weight: 700;">Vegan</p>
+                </div>
+                <div class="cat1" style="background:linear-gradient(rgba(204, 38, 27,0),rgba(204, 38, 27, 0.1));">
+                    <img src="../images/sec3.png" alt="sec1" width="100" height="100" >
+                    <p  style="font-size: 18px; letter-spacing: -0.32px; font-weight: 700;">Meat</p>
+                </div>
+                <div class="cat1" style="background: linear-gradient(rgba(240, 158, 0, 0),rgba(240, 158, 0, 0.1));">
+                    <img src="../images/sec4.png" alt="sec1" width="100" height="100" >
+                    <p  style="font-size: 18px; letter-spacing: -0.32px; font-weight: 700;">Dessert</p>
+                </div>
+                <div class="cat1" style="background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.05));">
+                    <img src="../images/sec5.png" alt="sec1" width="100" height="100" >
+                    <p  style="font-size: 18px; letter-spacing: -0.32px; font-weight: 700;">Lunch</p>
+                </div>
+                <div class="cat1" style="background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.05));">
+                    <img src="../images/sec6.png" alt="sec1" width="100" height="100" >
+                    <p  style="font-size: 18px; letter-spacing: -0.32px; font-weight: 700;">Chocolate</p>
+                </div>
+            </div>
+
+         <article class="fourthsection">
+            <h2 class="sechead" style="text-align: center; margin-bottom: 0;">Simple and tasty recipes</h2>
+            <p style="font-size: 16px; line-height: 28px; font-weight: 400;
+             text-align: center; text-align-last: center; color: rgba(0, 0, 0, 0.6); margin-top: 24px;">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut<br>
+                 labore et dolore magna aliqut enim ad minim </p>
+
+
+
+                 <div class="all">
+            <div class="one">
+                <div class="wagyu">
+                <div class="imagecontainer">
+                    <img src="../images/mask1.png" alt="mask1" width="368" height="250">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 24px; line-height: 32px; letter-spacing: -0.96px; color:black ;text-align-last: left; width: 370px;;" >Big and Juicy Wagyu Beef<br> Cheeseburger</p>
+
+                 <div class="bothmin">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6);">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6);">Chicken</p>
+                    </div>
+                </div>
+            </div>  
+            
+            
+            <div class="wagyu">
+                <div class="imagecontainer">
+                    <img src="../images/mask2.png" alt="mask1" width="368" height="250">
+                    <div class="iconcon" style="color: #DBE2E5;"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 24px; line-height: 32px; letter-spacing:-0.96px; color:black ;text-align-last: left; width: 23.125rem; flex-shrink: 0;" >Fresh Lime Roasted Salmon with<br> Ginger Sauce</p>
+
+                 <div class="bothmin">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6);">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6);">Chicken</p>
+                    </div>
+                </div>
+            </div>  
+            
+            
+            <div class="wagyu">
+                <div class="imagecontainer">
+                    <img src="../images/mask3.png" alt="mask1" width="368" height="250">
+                    <div class="iconcon" style="color: #DBE2E5;"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 24px; line-height: 32px; letter-spacing: -0.96px; color:black ;text-align-last: left; width: 23.125rem;" >Strawberry Oatmeal Pancake<br> with Honey Syrup</p>
+
+                 <div class="bothmin">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6);">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6);">Chicken</p>
+                    </div>
+                </div>
+            </div>  
+            </div> 
+            <div class="one">
+                <div class="wagyu">
+                <div class="imagecontainer">
+                    <img src="../images/mask4.png" alt="mask1" width="368" height="250">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 24px; line-height: 32px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 23.125rem;" >Big and Juicy Wagyu Beef<br> Cheeseburger</p>
+
+                 <div class="bothmin">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6);">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6);">Chicken</p>
+                    </div>
+                </div>
+            </div>  
+            
+            
+            <div class="wagyu">
+                <div class="imagecontainer">
+                    <img src="../images/mask5.png" alt="mask1" width="368" height="250">
+                    <div class="iconcon" style="color: #DBE2E5;"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 24px; line-height: 32px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 370px; flex-shrink: 0;" >Fresh Lime Roasted Salmon with<br> Ginger Sauce</p>
+
+                 <div class="bothmin">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6);">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6);">Chicken</p>
+                    </div>
+                </div>
+            </div>  
+            
+            
+            <div class="wagyu" style="background: none;">
+                <img src="../images/ads.png" alt="adsimage" width="400" height="434">
+            </div>  
+            </div> 
+            <div class="one">
+                <div class="wagyu">
+                <div class="imagecontainer">
+                    <img src="../images/mask6.png" alt="mask1" width="368" height="250">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 24px; line-height: 32px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 370px;;" >Big and Juicy Wagyu Beef<br> Cheeseburger</p>
+
+                 <div class="bothmin">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6);">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6);">Chicken</p>
+                    </div>
+                </div>
+            </div>  
+            
+            
+            <div class="wagyu">
+                <div class="imagecontainer">
+                    <img src="../images/mask7.png" alt="mask1" width="368" height="250">
+                    <div class="iconcon" style="color: #DBE2E5;"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 24px; line-height: 32px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 23.125rem; flex-shrink: 0;" >Fresh Lime Roasted Salmon with<br> Ginger Sauce</p>
+
+                 <div class="bothmin">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6);">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6);">Chicken</p>
+                    </div>
+                </div>
+            </div>  
+            
+            
+            <div class="wagyu">
+                <div class="imagecontainer">
+                    <img src="../images/mask8.png" alt="mask1" width="368" height="250">
+                    <div class="iconcon" style="color: #DBE2E5;"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 24px; line-height: 32px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 23.125rem;" >Strawberry Oatmeal Pancake<br> with Honey Syrup</p>
+
+                 <div class="bothmin">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6);">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6);">Chicken</p>
+                    </div>
+                </div>
+            </div>  
+            </div> 
+                 </div>   
+         </article>  
+         
+         <article class="item">
+                <div class="item5">
+                    <h2 class="sechead" style="flex-shrink: 0; width: 34.375rem; flex-grow: 1;">Everyone can be a <br>chef in their own kitchen</h2>
+                    <p class="para" style="margin-top: 24px;">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do <br>eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqut enim<br> ad minim </p>
+                        <button class="button" style="margin-top: 72px;">Learn More</button>
+                </div>
+                
+                
+                    <div class="chefimage">
+                        <img src="../images/chef.png" alt="cheffy" width="660" height="597">
+                        <img src="../images/sec2.png" alt="sec" width="100" height="100" class="iconma">                
+                    </div>   
+         </article>
+
+       <div class="potor">
+                    <h2 class="sechead" style="text-align: center;">Check out @foodieland on Instagram</h2>
+                    <p class="para" style="color: rgba(0, 0, 0, 0.6); text-align: center; margin-top: 24px;">Lorem ipsum dolor sit amet,
+                        consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore <br>magna aliqut enim ad minim </p>
+                
+                             
+                    <div class="poters">
+                        <img src="../images/Post-1.png" alt="Post-1" width="290" height="450">   
+                        <img src="../images/Post-2.png" alt="Post-1" width="290" height="450">   
+                        <img src="../images/Post-3.png" alt="Post-1" width="290" height="450">   
+                        <img src="../images/Post.png" alt="Post-1" width="290" height="450">   
+                    </div> 
+                    <div class="visit">
+                        <p style="font-size: 14px; font-weight: 600; letter-spacing: -0.28px; color: white;">Visit Our Website </p>
+                        <img src="../images/instagram-logo.svg" alt="instagram" width="28" height="28" style="color: white;">
+                    </div>
+            
+
+            </div>
+            
+        
+
+
+          <article class="tin">
+            <div class="tola">
+            <h2 class="sechead" style="flex-shrink: 0;">Try this delicious recipe<br> to make your day</h2>
+            <p class="para" style="color: rgba(0, 0, 0, 0.6); flex-shrink: 0;">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor <br>
+                incididunt ut labore et dolore magna aliqut enim ad minim </p>
+            </div>
+
+
+    <div class="raye">
+        <div class="fruity">
+                <div class="fruit">
+                <div class="imagecontainer" style="margin-bottom: 16px;">
+                    <img src="../images/mat5.png" alt="mask1" width="290" height="200">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 18px; line-height: 26px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 23.125rem;font-weight:600;" >Mixed Tropical Fruit Salad with <br>Superfood Boosts </p>
+
+                  
+                 <div class="bothmin" style="margin-top: 24px;">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6); font-size: 14px;">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6); font-size: 14px;">Chicken</p>
+                    </div>
+                </div> 
+            </div>  
+                <div class="fruit">
+                <div class="imagecontainer" style="margin-bottom: 16px;">
+                    <img src="../images/mat2.png" alt="mask1" width="290" height="200">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 18px; line-height: 26px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 23.125rem;font-weight:600;" >Mixed Tropical Fruit Salad with <br>Superfood Boosts </p>
+
+                  
+                 <div class="bothmin" style="margin-top: 24px;">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6); font-size: 14px;">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6); font-size: 14px;">Chicken</p>
+                    </div>
+                </div> 
+            </div>  
+                <div class="fruit">
+                <div class="imagecontainer" style="margin-bottom: 16px;">
+                    <img src="../images/mat3.png" alt="mask1" width="290" height="200">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 18px; line-height: 26px; letter-spacing:-0.72px; color:black ;text-align-last: left; width: 23.125rem;font-weight:600;" >Mixed Tropical Fruit Salad with <br>Superfood Boosts </p>
+
+                  
+                 <div class="bothmin" style="margin-top: 24px;">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6); font-size: 14px;">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6); font-size: 14px;">Chicken</p>
+                    </div>
+                </div> 
+            </div>  
+                <div class="fruit">
+                <div class="imagecontainer" style="margin-bottom: 16px;">
+                    <img src="../images/mat5.png" alt="mask1" width="290" height="200">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 18px; line-height: 26px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 23.125rem;font-weight:600;" >Mixed Tropical Fruit Salad with <br>Superfood Boosts </p>
+
+                  
+                 <div class="bothmin" style="margin-top: 24px;">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6); font-size: 14px;">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6); font-size: 14px;">Chicken</p>
+                    </div>
+                </div> 
+            </div>  
+        </div>
+        <div class="fruity">
+                <div class="fruit">
+                <div class="imagecontainer" style="margin-bottom: 16px;">
+                    <img src="../images/mat1.png" alt="mask1" width="290" height="200">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 18px; line-height: 26px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 23.125rem;font-weight:600;" >Mixed Tropical Fruit Salad with <br>Superfood Boosts </p>
+
+                  
+                 <div class="bothmin" style="margin-top: 24px;">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6); font-size: 14px;">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6); font-size: 14px;">Chicken</p>
+                    </div>
+                </div> 
+            </div>  
+                <div class="fruit">
+                <div class="imagecontainer" style="margin-bottom: 16px;">
+                    <img src="../images/mat8.png" alt="mask1" width="290" height="200">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 18px; line-height: 26px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 23.125rem;font-weight:600;" >Mixed Tropical Fruit Salad with <br>Superfood Boosts </p>
+
+                  
+                 <div class="bothmin" style="margin-top: 24px;">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6); font-size: 14px;">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6); font-size: 14px;">Chicken</p>
+                    </div>
+                </div> 
+            </div>  
+                <div class="fruit">
+                <div class="imagecontainer" style="margin-bottom: 16px;">
+                    <img src="../images/mat4.png" alt="mask1" width="290" height="200">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 18px; line-height: 26px; letter-spacing: -0.72px; color:black ;text-align-last: left; width: 23.125rem;font-weight:600;" >Mixed Tropical Fruit Salad with <br>Superfood Boosts </p>
+
+                  
+                 <div class="bothmin" style="margin-top: 24px;">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6); font-size: 14px;">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6); font-size: 14px;">Chicken</p>
+                    </div>
+                </div> 
+            </div>  
+                <div class="fruit">
+                <div class="imagecontainer" style="margin-bottom: 16px;">
+                    <img src="../images/mat6.png" alt="mask1" width="290" height="200">
+                    <div class="iconcon"><i class="material-symbols-outlined ">favorite</i>
+                    </div> 
+                </div>
+                 <p style="font-size: 18px; line-height: 26px; letter-spacing: 0.72px; color:black ;text-align-last: left; width: 370px;font-weight:600;" >Mixed Tropical Fruit Salad with <br>Superfood Boosts </p>
+
+                  
+                 <div class="bothmin" style="margin-top: 24px;">
+                    <div class="min">
+                        <img src="../images/time.svg" alt="time" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; color: rgba(0, 0, 0, 0.6); font-size: 14px;">30 Minute</p>
+                    </div>
+                    <div class="min">
+                        <img src="../images/fork-and-knife.svg
+                        
+                        " alt="hotrecipe" width="24" height="24" style="padding: 0; margin: 0;">
+                        <p style="flex-shrink: 0; padding: 0; margin: 0; font-weight: 400; color: rgba(0, 0, 0, 0.6); font-size: 14px;">Chicken</p>
+                    </div>
+                </div> 
+            </div>  
+        </div>
+    </div>   
+            
+         </article>
+
+
+         <article class="box">
+
+            <h3 class="sechead" style="text-align: center;">Deliciousness to your inbox</h3>
+            <p class="para" style="color: rgba(0, 0, 0, 0.6); text-align: center;">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor <br>
+                incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                <div class="email">
+                    <p class="pin">Your email address...</p> 
+                    <p class="ipn">Subscribe</p>
+                </div>
+                <img src="../images/salad.png" alt="salad" class="bottom left">
+                <img src="../images/salad2.png" alt="salad" class="bottom right">
+               
+            </article>
+            <footer>
+                <div class="fota">              
+                        <div class="firstpart">
+                        <h1 class="lobster">Foodieland<span style="color: #FF7426;">.</span></h1>
+                        <p class="para" style="color: rgba(0, 0, 0, 0.6);">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
+                    </div>
+                    <ul class="nav_list" style="justify-content: right; margin-right: 0;">
+                        <li class="list">Recipes</li>
+                        <li class="list">Blog</li>
+                        <li class="list">Contact</li>
+                        <li class="list">About us</li>
+                    </ul>
+                </div>
+
+            <div class="last">
+                <p class="para" style="text-align: center; color: rgba(0, 0, 0, 0.6);">&copy;2020 Flowbase. Powered by <span style="color: #FF7967;">Webflow</span> </p>
+                <div class="img">
+                    <img src="../images/facebook.svg" alt="facebook" width="15" height="20">
+                    <img src="../images/twitter.svg" alt="facebook" width="15" height="20">
+                    <img src="../images/instagram.svg" alt="facebook" width="15" height="20">
+                </div>
+            </div>
+           
+                
+            </footer> 
+     
+     <script src="../js/script.js"></script>
+    </body>
+</html>
