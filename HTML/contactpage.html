@@ -1,25 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
-
+      <title>CONTACT US</title>
+      <link rel="stylesheet" href="../CSS/page.css">
+      <meta charset="UTF-8">
+      <meta name="Author" content="Adedeji Adetola">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" >
     </head>
     <body>
+      <nav class="nav-bar">
+        <h2 class="lobster">Foodieland<span style="color: #FF7426;">.</span></h2>
 
-        <div class="icon2">
-            <span class="material-symbols-outlined icon1">print</span>
-            <p class="p3">Print</p>
-          </div>
-          
-          <div class="icon2">
-            <span class="material-symbols-outlined icon1">ios_share</span>
-            <p class="p3">Share</p>
-          </div>
-          
-          <div class="icon2">
-            <span class="material-symbols-outlined icon1">check_circle</span>
-            <p class="p3">Success</p>
-          </div>
-          
+
+        <ul class="nav_list">
+            <li class="list">Home</li>
+            <li class="list">Recipes</li>
+            <li class="list">Blog</li>
+            <li class="list">Contact</li>
+            <li class="list">About us</li>
+        </ul>
+        <div class="img">
+            <img src="../images/facebook.svg" alt="facebook" width="15" height="20">
+            <img src="../images/twitter.svg" alt="facebook" width="15" height="20">
+            <img src="../images/instagram.svg" alt="facebook" width="15" height="20">
+        </div>
+    </nav>  
+    <div class="mil">
+        <div class="contact">
+          <img src="../images/contactusimg.png" alt="contactusimg" width="350" >
+        </div>  
+        <section>
+        <h2  class="hid">Contact us</h2>     
+        <form action="#">
+          <div style="display: flex; flex-direction: column; gap: 24px;">
+              <div class="f2">
+                  <div class="f1"> 
+                      <div class="form1">
+                        <label for="name">NAME</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                      </div>
+                      <div class="form1">
+                        <label for="subject">SUBJECT</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter subject..." required>
+                      </div>
+                  </div>
+
+                  <div class="f1">
+                    <div class="form1">
+                      <label for="email">EMAIL</label>
+                      <input type="text" id="email" name="email" placeholder="Enter email address..." required>
+                    </div>
+                    <div class="form1">
+                      <label for="enquiry">ENQUIRY TYPE</label>
+                      <input list="enquiry-options" id="enquiry" name="enquiry" placeholder="Advertising" required>
+                    
+                      <datalist id="enquiry-options">
+                        <option value="Advertising">
+                        <option value="Advert">
+                        <option value="Value">
+                      </datalist>
+                    </div>
+                  </div>
+              </div>
+              <div class="form1">
+                <label for="subject">MESSAGES</label>
+                <input type="text" id="message" name="message" placeholder="Enter your messge..." required>
+              </div>
+            </div>
+
+          </form> 
+          <button class="subm">Submit</button>
+          </section>
+      </div>
+
+      <article class="box">
+
+        <h3 class="sechead" style="text-align: center;">Deliciousness to your inbox</h3>
+        <p class="para" style="color: rgba(0, 0, 0, 0.6); text-align: center;">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor <br>
+            incididunt ut labore et dolore magna aliqut enim ad minim </p>
+            <div class="email">
+                <p class="pin">Your email address...</p> 
+                <p class="ipn">Subscribe</p>
+            </div>
+            <img src="../images/salad.png" alt="salad" class="bottom left">
+            <img src="../images/salad2.png" alt="salad" class="bottom right">
+           
+        </article>
+    
+        <footer>
+            <div class="fota">              
+                    <div class="firstpart">
+                    <h1 class="lobster">Foodieland<span style="color: #FF7426;">.</span></h1>
+                    <p class="para" style="color: rgba(0, 0, 0, 0.6);">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
+                </div>
+                <ul class="nav_list" style="justify-content: right; margin-right: 0;">
+                    <li class="list">Recipes</li>
+                    <li class="list">Blog</li>
+                    <li class="list">Contact</li>
+                    <li class="list">About us</li>
+                </ul>
+            </div>
+
+        <div class="last">
+            <p class="para" style="text-align: center; color: rgba(0, 0, 0, 0.6);">&copy;2020 Flowbase. Powered by <span style="color: #FF7967;">Webflow</span> </p>
+            <div class="img">
+                <img src="../images/facebook.svg" alt="facebook" width="15" height="20">
+                <img src="../images/twitter.svg" alt="facebook" width="15" height="20">
+                <img src="../images/instagram.svg" alt="facebook" width="15" height="20">
+            </div>
+        </div>
+       
+            
+        </footer>    
+
     </body>
 </html>

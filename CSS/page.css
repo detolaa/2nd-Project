@@ -1000,3 +1000,231 @@ footer {
     margin-bottom: 160px;
     flex-wrap: wrap;
 }
+.q1{
+    font-size: 64px;
+    letter-spacing:  -0.04em;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin-top: 80px;
+}
+.blogimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+.q2{
+    font-size: 24px;
+    letter-spacing: -0.04em;
+    color: black;
+}
+.q3{
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 400;
+}
+.q4{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.q5{
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    padding: 0 50px;
+}
+.q6{
+    color: #000;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    padding: 48px 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 920px;
+    background: linear-gradient(rgba(0, 0, 0,0.01),rgba(0, 0, 0,0.05));
+
+}
+.q7{
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #000;
+}
+.nimg{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    color: #000;
+
+}
+.share{
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.ex{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 80px
+}
+.contact{
+    background-image: linear-gradient(to bottom, rgba(231, 249, 253, 0),#E7F9FD);
+    width: 400px;
+    height: 472px;
+
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.form1 input{
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    padding: 18px 20px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+}
+.form1 label{
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+form1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.form1 input{
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    padding: 18px 20px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+}
+.form1 label{
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+.form1 input #message{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.f2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+#message{
+    width: 840px; 
+    height: 200px;
+    box-sizing: border-box;
+    text-align: left;
+   
+
+}
+.mil{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin: 80px;
+    margin-bottom: 160px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hid{
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing:-0.04em;
+    color: #000;
+    margin-bottom: 80px;
+}
+.subm{
+    color: white;
+    background-color: #000;
+    border-radius: 16px;
+    padding: 20px 63px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-top: 48px;
+
+}
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.f2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+#message{
+    width: 840px; 
+    height: 200px;
+    box-sizing: border-box;
+    text-align: left;
+   
+
+}
+.mil{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin: 80px;
+    margin-bottom: 160px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hid{
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    color: #000;
+    margin-bottom: 80px;
+}
+.subm{
+    color: white;
+    background-color: #000;
+    border-radius: 16px;
+    padding: 20px 63px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-top: 48px;
+
+}
